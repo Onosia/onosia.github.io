@@ -852,6 +852,33 @@
 
     <!--begin:Swiper slider-->
     <script src="assets/vendor/node_modules/js/swiper-bundle.min.js"></script>
+    <script>
+        //swiper-testimonials
+        var swiperAuto = new Swiper(".swiper-testimonials", {
+            slidesPerView: "auto",
+            loop: true,
+            centeredSlides: true,
+            spaceBetween: 16,
+            pagination: {
+                el: ".swiperAuto-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiperAuto-button-next",
+                prevEl: ".swiperAuto-button-prev",
+            }
+        });
+
+        //Swiper for text/headings
+        var swiperText = new Swiper(".swiper-text", {
+            autoplay: true,
+            direction: "vertical",
+            loop: true,
+            grabCursor: false,
+            speed: 600
+        });
+
+    </script>
 </body>
 
 </html>
