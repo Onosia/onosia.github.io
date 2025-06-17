@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <!--Icons-->
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css">
+    <!--Iconsmind Icons-->
+    <link rel="stylesheet" href="assets/fonts/iconsmind/iconsmind.css">
+    <!--AOS Animations-->
+    <link rel="stylesheet" href="assets/vendor/node_modules/css/aos.css">
+
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <!--Main theme style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Swiper slider-->
+    <link rel="stylesheet" href="assets/vendor/node_modules/css/swiper-bundle.min.css">
+
+    <title>Infrasud - Bureau d'etudes techniques</title>
+</head>
+
+<body class="leading-relaxed text-base text-gray-900 dark:text-white dark:bg-black">
+     <!--Preloader Spinner-->
+     <div class="spinner-loader bg-primary text-white">
+        <span class="relative flex h-16 w-16">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-16 w-16 bg-indigo-500"></span>
+          </span>
+    </div>
+    <!--begin:Header-->
+    <header class="header-transparent sticky-fixed">
+
+        <!--begin:navbar-->
+        <nav class="navbar navbar-expand-lg fixed top-0 left-0 w-full z-[999] navbar-light navbar-link-white">
+            <!--Navbar-fixed-background-->
+            <div class="navbar-fixed-bg absolute"></div>
+            <div class="container relative flex flex-wrap items-center justify-center">
+                <!--begin:logo-->
+                <a class="navbar-brand relative w-32 block" href="index.html">
+                    <img src="assets/img/logo.png" alt="" class="max-w-full navbar-brand-sticky">
+                    <img src="assets/img/logo-white.png" alt="" class="max-w-full navbar-brand-transparent">
+                </a>
+                <!--end:logo-->
+
+                <!--begin:navbar-no-collapse-items-->
+                <div class="flex items-center shrink-0 ml-auto lg:order-last">
+                    <!--Navbar toggler button-->
+                    <button class="navbar-toggler order-last lg:hidden ml-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i></i>
+                        </span>
+                    </button>
+                    <!--Button-->
+
+                </div>
+                <!--end:navbar-no-collapse-items-->
+
+                <!--begin:navbar-collapse-->
+                <div class="collapse navbar-collapse w-full lg:w-auto lg:visible lg:ml-auto flex flex-wrap  lg:justify-end items-center !visible lg:!flex lg:basis-auto basis-full pt-4 lg:pt-0 lg:!bg-transparent"
+                    id="mainNavbarTheme">
+
+                    <!--begin:Navbar items-->
+                    <ul class="navbar-nav flex flex-col lg:flex-row bg-white dark:bg-black lg:!bg-transparent w-full p-2 lg:p-0 shadow-lg lg:shadow-none">
+
+                      <!--begin:portfolio-->
+                      <li class="nav-item group dropdown relative">
+                        <a class="nav-link dropdown-toggle " href="#" role="button"
+                          data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">InfraSud
+                          <!--:Arrow:-->
+                          <span class="dropdown-arrow lg:group-hover:rotate-180 text-xs transition-all inline-block ml-1">
+                            <i class="bi bi-chevron-down"></i>
+                          </span>
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="index.html#section-whoarewe">Qui sommes-nous</a>
+                          <a class="dropdown-item" href="index.html#section-values">Nos valeurs</a>
+                          <a class="dropdown-item" href="index.html#section-team">Notre équipe</a>
+                          <a class="dropdown-item" href="index.html#section-projects">Nos derniers projets</a>
+
+
+                        </div>
+                      </li>
+                      <!--end:blog-->
+
+                      <!--begin:pages-->
+                      <li class="nav-item group dropdown relative">
+                        <a class="nav-link dropdown-toggle " href="#" role="button"
+                          data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">Certifications
+                          <!--:Arrow:-->
+                          <span class="dropdown-arrow lg:group-hover:rotate-180 text-xs transition-all inline-block ml-1">
+                            <i class="bi bi-chevron-down"></i>
+                          </span>
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="cert.html">03 - Planification et coordinations diverses</a>
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+
+                        </div>
+                      </li>
+                      <!--end:pages-->
+
+                      <!--begin:pages-->
+                      <li class="nav-item group relative">
+                        <a class="nav-link" href="ref.html">Références</a>
+                      </li>
+                      <!--end:features-->
+                      <!--begin:pages-->
+                      <li class="nav-item group relative">
+                        <a class="nav-link" href="order.html">Donneurs d'ordre</a>
+                      </li>
+                      <li class="nav-item group relative">
+                        <a class="nav-link" href="#footer">Nous contacter</a>
+                      </li>
+                    </ul>
+                    <!--end:Navbar items-->
+
+                </div>
+                <!--end:navbar-collapse-->
+            </div>
+
+        </nav>
+        <!--end:navbar-->
+    </header>
+    <!--end:header-->
+
+    <!--Main content-->
+    <main class="main-content" id="main-content">
+        <!--page-hero-->
+        <section class="bg-black text-white relative overflow-hidden jarallax-container">
+            <!--begin:Video-bg-->
+            <div class="w-full h-full opacity-40 absolute right-0 top-0 bg-cover bg-no-repeat bg-center"
+                style="background-image: url('assets/img/infraback.jpg');">
+            </div>
+            <!--end:Video-bg-->
+
+            <!--begin:container-->
+            <div class="container h-full pt-28 lg:pt-44 pb-16 relative z-[1]">
+                <div class="flex flex-wrap pb-5 md:pb-9 -mx-4 h-full items-center">
+                    <div class="px-4 w-full lg:w-3/4 mx-auto text-center mb-5 mb-lg-0">
+                        <!--begin:swiper text-slider-->
+                        <div
+                            class="swiper-container swiper-text w-full h-9 text-xl font-medium font-serif italic mb-3 text-white overflow-hidden">
+                            <!--begin:Slider wrapper-->
+                            <div class="swiper-wrapper text-white">
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études préliminaires
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études d’avant-projet
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études de projet
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Assistance aux contrats de travaux
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études d’exécution
+                                </div>
+                                <div class="swiper-slide justify-center">
+                                    Visa
+                                </div>
+                                <div class="swiper-slide justify-center">
+                                    Direction de l’exécution des travaux
+                                </div>
+                                <div class="swiper-slide justify-center">
+                                    Assistance aux opérations de réception
+                                </div>
+
+                            </div>
+                            <!--end:Slider wrapper-->
+
+                        </div>
+                        <!--end:swiper text-slider-->
+
+                        <!--Hero title-->
+                        <h1 class="text-5xl lg:text-7xl font-medium mb-5">
+                            Nous intervenons <span class="text-gradient-light">à tous les stades</span> de la mission
+                        </h1>
+
+                        <!--Hero description-->
+                        <p class="mb-9 lg:w-2/3 text-xl mx-auto text-white/75">
+                            SOUS TITRE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nisl at mauris mattis mattis
+                        </p>
+
+                        <!--Hero action button-->
+                        <div class="flex items-center justify-center">
+                            <a href="#section-whoarewe"
+                                class="px-6 lg:px-8 py-3 border-2 border-white text-white inline-flex items-center rounded-full font-medium capitalize hover:bg-white hover:text-indigo-500 hover:-translate-y-1">En savoir plus
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end:container-->
+
+            <!--begin:Divider shape-->
+            <svg class="absolute start-0 bottom-0 mb-n1 text-white dark:text-black" preserveAspectRatio="none"
+                width="100%" height="80" viewBox="0 0 1460 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M122 22.8261L0 0V120H1460V0L1338 22.8261C1217 44.1304 973 88.2609 730 88.2609C487 88.2609 243 44.1304 122 22.8261Z"
+                    fill="currentColor"></path>
+            </svg>
+            <!--end:Divider shape-->
+        </section>
+        <!--/section-->
+        <section class="relative" id="section-whoarewe">
+            <div class="container relative py-16 lg:py-24">
+                <div class="flex flex-wrap -mx-4 justify-between">
+                  <div class="w-full px-4 md:order-last md:w-6/12 lg:pr-16 xl:pr-24 relative" data-aos="fade-up"
+                      data-aos-delay="100">
+                      <!--Heading-->
+                      <h2 class="mb-5 text-4xl lg:text-5xl font-medium">Nous intervenons sur tous types de projets</h2>
+
+                      <!--Text-->
+                      <div class="w-full mx-auto">
+
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-gray-500">Equipements publics</span>
+                            <span class="font-medium text-lg">38%</span>
+                            </div>
+                              <div class="h-3 rounded-full bg-indigo-500/20 mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">
+                                <div class="h-3 rounded-full bg-indigo-500" style="width: 38%"></div>
+                              </div>
+                        </div>
+                        <div class="w-full mx-auto">
+
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-gray-500">Aménagements urbains</span>
+                            <span class="font-medium text-lg">16%</span>
+                            </div>
+                              <div class="h-3 rounded-full bg-indigo-500/20 mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100">
+                                <div class="h-3 rounded-full bg-indigo-500" style="width: 16%"></div>
+                              </div>
+                        </div>
+                        <div class="w-full mx-auto">
+
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-gray-500">Habitat</span>
+                            <span class="font-medium text-lg">16%</span>
+                            </div>
+                              <div class="h-3 rounded-full bg-indigo-500/20 mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="316" aria-valuemin="0" aria-valuemax="100">
+                                <div class="h-3 rounded-full bg-indigo-500" style="width: 16%"></div>
+                              </div>
+                        </div>
+                        <div class="w-full mx-auto">
+
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-gray-500">ZAC</span>
+                            <span class="font-medium text-lg">14%</span>
+                            </div>
+                              <div class="h-3 rounded-full bg-indigo-500/20 mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100">
+                                <div class="h-3 rounded-full bg-indigo-500" style="width: 14%"></div>
+                              </div>
+                        </div>
+                        <div class="w-full mx-auto">
+
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-gray-500">Divers</span>
+                            <span class="font-medium text-lg">11%</span>
+                            </div>
+                              <div class="h-3 rounded-full bg-indigo-500/20 mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="11" aria-valuemin="0" aria-valuemax="100">
+                                <div class="h-3 rounded-full bg-indigo-500" style="width: 11%"></div>
+                              </div>
+                        </div>
+                        <div class="w-full mx-auto">
+
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-gray-500">Infrastructures portuaires</span>
+                            <span class="font-medium text-lg">5%</span>
+                            </div>
+                              <div class="h-3 rounded-full bg-indigo-500/20 mb-5" role="progressbar" aria-label="Basic example" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                                <div class="h-3 rounded-full bg-indigo-500" style="width: 5%"></div>
+                              </div>
+                        </div>
+
+                  </div>
+                    <div class="w-full px-4 md:order-1 md:w-6/12 lg:pr-16 xl:pr-24 relative" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <!--Heading-->
+                        <h2 class="mb-5 text-4xl lg:text-5xl font-medium">Découvrez Infrasud</h2>
+
+                        <!--Text-->
+                        <p class="mb-7 text-gray-600 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="mb-7 text-gray-600 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="mb-7 text-gray-600 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <p class="mb-7 text-gray-600 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <!--Feature-card-->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end:feature image section-->
+        <section class="overflow-hidden relative bg-gray-100 dark:bg-gray-900" id="section-values">
+            <div class="container relative py-16 lg:py-24">
+                <div data-aos="fade-up">
+                    <h2 class="text-4xl lg:text-5xl font-medium text-center mb-8">Nos <span
+                            class="text-gradient-light">valeurs</span></h2>
+                </div>
+                <!--feature icons row-->
+                <div class="flex flex-wrap -mx-4 justify-center">
+                    <div class="w-full px-4 md:w-4/12 text-center mt-16" data-aos="fade-up" data-aos-delay="50">
+                        <!--Icon card-->
+                        <div
+                            class="px-4 lg:px-6 pb-7 relative rounded-xl bg-gray-50 dark:bg-gray-900 flex flex-col text-center">
+                            <!--Feature icon-->
+                            <div class="mb-4 mx-auto w-20 h-20 flex items-center justify-center relative -mt-10">
+                                <!--Icon bg-->
+                                <svg class="absolute text-white dark:text-black start-0 top-0 w-full h-full"
+                                    preserveAspectRatio="none" width="120" height="120" viewBox="0 0 120 120"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M55.4078 1.90215C58.3481 0.684225 61.6519 0.684225 64.5922 1.90215L97.8342 15.6714C100.775 16.8894 103.111 19.2255 104.329 22.1658L118.098 55.4078C119.316 58.3481 119.316 61.6519 118.098 64.5922L104.329 97.8342C103.111 100.775 100.775 103.111 97.8342 104.329L64.5922 118.098C61.6519 119.316 58.3481 119.316 55.4078 118.098L22.1658 104.329C19.2255 103.111 16.8894 100.775 15.6714 97.8342L1.90215 64.5922C0.684225 61.6519 0.684225 58.3481 1.90215 55.4078L15.6714 22.1658C16.8894 19.2255 19.2255 16.8894 22.1658 15.6714L55.4078 1.90215Z"
+                                        fill="currentColor" />
+                                </svg>
+                                <!--Icon-->
+                                <i class="icon-Handshake text-4xl text-indigo-500 relative"></i>
+                            </div>
+                            <div class="flex items-center mb-3 justify-center">
+                                <h5 class="mb-0 text-xl font-medium capitalize">Intégrité</h5>
+                            </div>
+                            <p class="mb-0 lg:w-10/12 mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 md:w-4/12 text-center mt-16" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div
+                            class="px-4 lg:px-6 pb-7 relative rounded-xl bg-gray-50 dark:bg-gray-900 flex flex-col text-center">
+                            <!--Feature icon-->
+                            <div class="mb-4 mx-auto w-20 h-20 flex items-center justify-center relative -mt-10">
+                                <!--Icon bg-->
+                                <svg class="absolute text-white dark:text-black start-0 top-0 w-full h-full"
+                                    preserveAspectRatio="none" width="120" height="120" viewBox="0 0 120 120"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M55.4078 1.90215C58.3481 0.684225 61.6519 0.684225 64.5922 1.90215L97.8342 15.6714C100.775 16.8894 103.111 19.2255 104.329 22.1658L118.098 55.4078C119.316 58.3481 119.316 61.6519 118.098 64.5922L104.329 97.8342C103.111 100.775 100.775 103.111 97.8342 104.329L64.5922 118.098C61.6519 119.316 58.3481 119.316 55.4078 118.098L22.1658 104.329C19.2255 103.111 16.8894 100.775 15.6714 97.8342L1.90215 64.5922C0.684225 61.6519 0.684225 58.3481 1.90215 55.4078L15.6714 22.1658C16.8894 19.2255 19.2255 16.8894 22.1658 15.6714L55.4078 1.90215Z"
+                                        fill="currentColor" />
+                                </svg>
+                                <!--Icon-->
+                                <i class="icon-Eye-Scan text-green-500 text-4xl relative"></i>
+                            </div>
+
+                            <!--Feature Text-->
+                            <div class="flex items-center mb-3 justify-center">
+                                <h5 class="mb-0 text-xl font-medium capitalize">Vision</h5>
+                            </div>
+                            <p class="mb-0 lg:w-10/12 mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 md:w-4/12 text-center mt-16" data-aos="fade-up"
+                        data-aos-delay="150">
+
+                        <div
+                            class="px-4 lg:px-6 pb-7 relative rounded-xl bg-gray-50 dark:bg-gray-900 flex flex-col text-center">
+                            <!--Feature icon-->
+                            <div class="mb-4 mx-auto w-20 h-20 flex items-center justify-center relative -mt-10">
+                                <!--Icon bg-->
+                                <svg class="absolute text-white dark:text-black start-0 top-0 w-full h-full"
+                                    preserveAspectRatio="none" width="120" height="120" viewBox="0 0 120 120"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M55.4078 1.90215C58.3481 0.684225 61.6519 0.684225 64.5922 1.90215L97.8342 15.6714C100.775 16.8894 103.111 19.2255 104.329 22.1658L118.098 55.4078C119.316 58.3481 119.316 61.6519 118.098 64.5922L104.329 97.8342C103.111 100.775 100.775 103.111 97.8342 104.329L64.5922 118.098C61.6519 119.316 58.3481 119.316 55.4078 118.098L22.1658 104.329C19.2255 103.111 16.8894 100.775 15.6714 97.8342L1.90215 64.5922C0.684225 61.6519 0.684225 58.3481 1.90215 55.4078L15.6714 22.1658C16.8894 19.2255 19.2255 16.8894 22.1658 15.6714L55.4078 1.90215Z"
+                                        fill="currentColor" />
+                                </svg>
+                                <!--Icon-->
+                                <i class="icon-Lock text-orange-500 text-4xl relative"></i>
+                            </div>
+
+                            <!--Feature Text-->
+                            <div class="flex items-center mb-3 justify-center">
+                                <h5 class="mb-0 text-xl font-medium capitalize">Sécurité</h5>
+                            </div>
+                            <p class="mb-0 lg:w-10/12 mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 md:w-4/12 text-center mt-16" data-aos="fade-up"
+                        data-aos-delay="200">
+
+                        <div
+                            class="px-4 lg:px-6 pb-7 relative rounded-xl bg-gray-50 dark:bg-gray-900 flex flex-col text-center">
+                            <!--Feature icon-->
+                            <div class="mb-4 mx-auto w-20 h-20 flex items-center justify-center relative -mt-10">
+                                <!--Icon bg-->
+                                <svg class="absolute text-white dark:text-black start-0 top-0 w-full h-full"
+                                    preserveAspectRatio="none" width="120" height="120" viewBox="0 0 120 120"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M55.4078 1.90215C58.3481 0.684225 61.6519 0.684225 64.5922 1.90215L97.8342 15.6714C100.775 16.8894 103.111 19.2255 104.329 22.1658L118.098 55.4078C119.316 58.3481 119.316 61.6519 118.098 64.5922L104.329 97.8342C103.111 100.775 100.775 103.111 97.8342 104.329L64.5922 118.098C61.6519 119.316 58.3481 119.316 55.4078 118.098L22.1658 104.329C19.2255 103.111 16.8894 100.775 15.6714 97.8342L1.90215 64.5922C0.684225 61.6519 0.684225 58.3481 1.90215 55.4078L15.6714 22.1658C16.8894 19.2255 19.2255 16.8894 22.1658 15.6714L55.4078 1.90215Z"
+                                        fill="currentColor" />
+                                </svg>
+                                <!--Icon-->
+                                <i class="icon-Thumb text-blue-500 text-4xl relative"></i>
+                            </div>
+
+                            <!--Feature Text-->
+                            <div class="flex items-center mb-3 justify-center">
+                                <h5 class="mb-0 text-xl font-medium capitalize">Qualité</h5>
+                            </div>
+                            <p class="mb-0 lg:w-10/12 mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 md:w-4/12 text-center mt-16" data-aos="fade-up"
+                        data-aos-delay="250">
+
+                        <div
+                            class="px-4 lg:px-6 pb-7 relative rounded-xl bg-gray-50 dark:bg-gray-900 flex flex-col text-center">
+                            <!--Feature icon-->
+                            <div class="mb-4 mx-auto w-20 h-20 flex items-center justify-center relative -mt-10">
+                                <!--Icon bg-->
+                                <svg class="absolute text-white dark:text-black start-0 top-0 w-full h-full"
+                                    preserveAspectRatio="none" width="120" height="120" viewBox="0 0 120 120"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M55.4078 1.90215C58.3481 0.684225 61.6519 0.684225 64.5922 1.90215L97.8342 15.6714C100.775 16.8894 103.111 19.2255 104.329 22.1658L118.098 55.4078C119.316 58.3481 119.316 61.6519 118.098 64.5922L104.329 97.8342C103.111 100.775 100.775 103.111 97.8342 104.329L64.5922 118.098C61.6519 119.316 58.3481 119.316 55.4078 118.098L22.1658 104.329C19.2255 103.111 16.8894 100.775 15.6714 97.8342L1.90215 64.5922C0.684225 61.6519 0.684225 58.3481 1.90215 55.4078L15.6714 22.1658C16.8894 19.2255 19.2255 16.8894 22.1658 15.6714L55.4078 1.90215Z"
+                                        fill="currentColor" />
+                                </svg>
+                                <!--Icon-->
+                                <i class="icon-Light-Bulb text-4xl text-red-500 relative"></i>
+                            </div>
+
+                            <!--Feature Text-->
+                            <div class="flex items-center mb-3 justify-center">
+                                <h5 class="mb-0 text-xl font-medium capitalize">Innovation</h5>
+                            </div>
+                            <p class="mb-0 lg:w-10/12 mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 md:w-4/12 text-center mt-16" data-aos="fade-up"
+                        data-aos-delay="300">
+                        <div
+                            class="px-4 lg:px-6 pb-7 relative rounded-xl bg-gray-50 dark:bg-gray-900 flex flex-col text-center">
+
+                            <!--Feature icon-->
+                            <div class="mb-4 mx-auto w-20 h-20 flex items-center justify-center relative -mt-10">
+                                <!--Icon bg-->
+                                <svg class="absolute text-white dark:text-black start-0 top-0 w-full h-full"
+                                    preserveAspectRatio="none" width="120" height="120" viewBox="0 0 120 120"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M55.4078 1.90215C58.3481 0.684225 61.6519 0.684225 64.5922 1.90215L97.8342 15.6714C100.775 16.8894 103.111 19.2255 104.329 22.1658L118.098 55.4078C119.316 58.3481 119.316 61.6519 118.098 64.5922L104.329 97.8342C103.111 100.775 100.775 103.111 97.8342 104.329L64.5922 118.098C61.6519 119.316 58.3481 119.316 55.4078 118.098L22.1658 104.329C19.2255 103.111 16.8894 100.775 15.6714 97.8342L1.90215 64.5922C0.684225 61.6519 0.684225 58.3481 1.90215 55.4078L15.6714 22.1658C16.8894 19.2255 19.2255 16.8894 22.1658 15.6714L55.4078 1.90215Z"
+                                        fill="currentColor" />
+                                </svg>
+                                <!--Icon-->
+                                <i class="icon-Business-Mens text-4xl text-purple-500 relative"></i>
+                            </div>
+
+                            <!--Feature Text-->
+                            <div class="flex items-center mb-3 justify-center">
+                                <h5 class="mb-0 text-xl font-medium capitalize">Réactivité</h5>
+                            </div>
+                            <p class="mb-0 lg:w-10/12 mx-auto">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="overflow-hidden relative bg-gray-100 dark:bg-gray-900" id="section-team">
+            <div class="container relative py-16 lg:py-24">
+                <div data-aos="fade-up">
+                    <h2 class="text-4xl lg:text-5xl font-medium text-center mb-8">Notre <span
+                            class="text-gradient-light">équipe</span></h2>
+                </div>
+                <div class="flex flex-wrap -mx-3 justify-center">
+                    <div class="lg:w-3/12 sm:w-6/12 w-full px-3 mt-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="350">
+                        <div class="bg-white relative shadow-sm group overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-200 rounded-xl h-full">
+                            <div class="block overflow-hidden relative">
+                                <img src="assets/img/team/1.jpg" alt="" class="max-w-full">
+
+                                <!--/.overlay-->
+                            </div>
+                            <!--/.image and overlay-->
+                            <div class="p-5">
+                                <h5 class="text-xl font-medium mb-2">Bertrand Ravignon</h5>
+                                <p class="mb-0 text-gray-400">Ingénieur gérant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-3/12 sm:w-6/12 w-full px-3 mt-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="350">
+                        <div class="bg-white relative shadow-sm group overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-200 rounded-xl h-full">
+                            <div class="block overflow-hidden relative">
+                                <img src="assets/img/team/2.jpg" alt="" class="max-w-full">
+
+                            </div>
+                            <!--/.image and overlay-->
+                            <div class="p-5">
+                                <h5 class="text-xl font-medium mb-2">Jérémy Blanc</h5>
+                                <p class="mb-0 text-gray-400">Ingénieur responsable des études et de la réalisation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-3/12 sm:w-6/12 w-full px-3 mt-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="350">
+                        <div class="bg-white relative shadow-sm group overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-200 rounded-xl h-full">
+                            <div class="block overflow-hidden relative">
+                                <img src="assets/img/team/3.jpg" alt="" class="max-w-full">
+
+                            </div>
+                            <!--/.image and overlay-->
+                            <div class="p-5">
+                                <h5 class="text-xl font-medium mb-2">Sonia Muller</h5>
+                                <p class="mb-0 text-gray-400">Assistante technique</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-3/12 sm:w-6/12 w-full px-3 mt-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="350">
+                        <div class="bg-white relative shadow-sm group overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-200 rounded-xl h-full">
+                            <div class="block overflow-hidden relative">
+                                <img src="assets/img/team/3.jpg" alt="" class="max-w-full">
+
+                            </div>
+                            <!--/.image and overlay-->
+                            <div class="p-5">
+                                <h5 class="text-xl font-medium mb-2">Cécile Reynaud</h5>
+                                <p class="mb-0 text-gray-400">Assistante de gestion</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+            </section>
+        <!--begin:projects section-->
+        <section class="relative" id="section-projects">
+            <div class="container py-16 lg:py-24 relative z-[1]">
+                <div class="lg:flex text-center lg:text-left">
+                    <!--section-title-->
+                    <h2 class="mb-4 lg:mb-0 font-medium text-4xl lg:text-5xl">Nos derniers <span
+                            class="text-gradient-light">Projets</span>
+                    </h2>
+                    <!-- Nav -->
+                    <ul
+                        class="mx-auto lg:ml-auto flex flex-wrap items-center gap-3 nav nav-filter items-center justify-center lg:justify-end lg:mr-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-bs-toggle="pill" data-filter="*"
+                                data-bs-target="#zac">
+                                Tous
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="pill" data-filter=".zac"
+                                data-bs-target="#zac">
+                                Zac
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link small" href="#" data-bs-toggle="pill" data-filter=".urbain"
+                                data-bs-target="#urbain">
+                                Aménagement urbain
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="pill" data-filter=".publics"
+                                data-bs-target="#publics">
+                                Equipements publics
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="pill" data-filter=".habitat"
+                                data-bs-target="#habitat">
+                                Habitat
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div id="projects" data-isotope='{"layoutMode": "masonry"}' class="flex flex-wrap -mx-4">
+
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 zac grid-item">
+                        <!--begin:Project card-->
+                        <div class="card-hover">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/zacsas.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">ZAC nord</h5>
+                            <span class="opacity-75">Saint André de Sangonis</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 urbain grid-item">
+                        <!--begin:Project card-->
+                        <div class="card-hover">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/fronti.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Quartier du Miradou</h5>
+                            <span class="opacity-75">Frontignan La Peyrade</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 urbain grid-item">
+                        <!--begin:Project card-->
+                        <div class="card-hover">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/mtp.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Avenue Théroigne de Méricourt</h5>
+                            <span class="opacity-75">Montpellier</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 publics grid-item">
+                        <!--begin:Project card-->
+                        <div class="card-hover">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/projects/4.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Carte de demonstration</h5>
+                            <span class="opacity-75">Pour publics</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 publics grid-item">
+                        <!--begin:Project card-->
+                        <div class="card-hover">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/projects/5.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Carte de demonstration</h5>
+                            <span class="opacity-75">Pour publics</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 publics grid-item">
+                        <!--begin:Project card-->
+                        <div class="relative">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/projects/6.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Carte de demonstration</h5>
+                            <span class="opacity-75">Pour publics</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 habitat grid-item">
+                        <!--begin:Project card-->
+                        <div class="relative">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/projects/6.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Carte de demonstration</h5>
+                            <span class="opacity-75">Pour habitat</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 habitat grid-item">
+                        <!--begin:Project card-->
+                        <div class="relative">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/projects/6.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Carte de demonstration</h5>
+                            <span class="opacity-75">Pour habitat</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                    <div class="w-full px-4 md:w-6/12 lg:w-4/12 mt-8 zac grid-item">
+                        <!--begin:Project card-->
+                        <div class="relative">
+                            <div class="overflow-hidden js-mouseover relative mb-4 rounded-xl group">
+                                <img src="assets/img/projects/6.jpg" alt=""
+                                    class="max-w-full rounded-xl transition-all duration-300 group-hover:scale-125">
+                                <a href="#!"
+                                    class="link-mouseover absolute left-0 top-0 flex items-center justify-center w-24 h-24 -ml-12 -mt-12 text-black bg-white rounded-full opacity-0 scale-[25] group-hover:!opacity-100 shadow-lg">
+                                    <i class="bi bi-eye text-3xl"></i>
+                                </a>
+                            </div>
+                            <h5 class="mb-2 text-2xl font-medium">Carte de demonstration</h5>
+                            <span class="opacity-75">Pour zac</span>
+                        </div>
+                        <!--end:Project card-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--end: call to action-->
+    </main>
+
+    <!--begin:Footer-->
+    <footer id="footer" class="bg-body footer relative bg-gray-100 dark:bg-gray-900">
+        <div class="container pt-12 lg:pt-16 pb-5 relative z-[1]">
+            <div class="flex flex-wrap -mx-4">
+                <!--Footer col-->
+                <div class="w-full lg:w-2/6 px-4 mb-7">
+                    <div class="flex flex-col h-full">
+                        <h6 class="mb-4 font-medium">
+                            Nous contacter
+                        </h6>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Phone text-2xl text-blue-500 me-4"></i>04 67 69 00 64</p>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Fax text-2xl text-blue-500 me-4"></i>04 67 69 01 14</p>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Email text-2xl text-blue-500 me-4"></i>secretariat@infrasud.com</p>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Map-Marker2 text-2xl text-blue-500 me-4"></i>187 rue Hélène Boucher</br>34170 Castelnau-le-Lez</br>France</p>
+
+                        <!--:Dark Mode:-->
+                        <button data-bs-toggle="tooltip" data-bs-title="toggle theme" data-bs-placement="left"
+                        class="mt-5 toggle-mode w-10 h-10 rounded-full transition-all bg-white shadow-lg text-gray-700 dark:text-white dark:bg-gray-700 hover:bg-indigo-500 hover:text-white dark:hover:bg-indigo-500 flex items-center justify-center"
+                        type="button">
+                        <span class="dark:block hidden">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M12 2V4M12 20V22M4 12H2M6.31412 6.31412L4.8999 4.8999M17.6859 6.31412L19.1001 4.8999M6.31412 17.69L4.8999 19.1042M17.6859 17.69L19.1001 19.1042M22 12H20M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12Z"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        <span class="block dark:hidden">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M21.9548 12.9564C20.5779 15.3717 17.9791 17.0001 15 17.0001C10.5817 17.0001 7 13.4184 7 9.00008C7 6.02072 8.62867 3.42175 11.0443 2.04492C5.96975 2.52607 2 6.79936 2 11.9998C2 17.5227 6.47715 21.9998 12 21.9998C17.2002 21.9998 21.4733 18.0305 21.9548 12.9564Z"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-2/6 px-4 mb-7">
+</div>
+                <!--Footer col-->
+
+            </div>
+            <hr class="mb-5 mt-0 dark:border-gray-800">
+                <div class="w-full px-4 sm:text-right">
+                    <span class="block text-sm opacity-75">&copy; Copyright
+                        <script>
+                            document.write(new Date().getFullYear())
+
+                        </script>. Infrasud
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </footer>
+    <!--end:Footer-->
+
+
+    <!-- begin:Back to Top button -->
+    <a href="#"
+        class="toTop fixed rounded-full bg-indigo-500 text-white mr-4 mb-4 w-12 h-12 flex opacity-0 invisible [&.show]:visible [&.show]:opacity-100 items-center justify-center z-50 right-0 bottom-0">
+        <svg class="progress-circle absolute w-14 h-14 text-white" viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="4"
+                stroke-dasharray="0, 251.2">
+            </circle>
+        </svg>
+        <i class="bi bi-chevron-up"></i>
+    </a>
+    <!-- begin:Back to Top button -->
+
+
+    <!-- begin:main script -->
+    <script src="assets/js/theme.bundle.min.js"></script>
+    <!-- end:main script -->
+
+    <!--begin:Swiper slider-->
+    <script src="assets/vendor/node_modules/js/swiper-bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <!--Icons-->
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css">
+    <!--Iconsmind Icons-->
+    <link rel="stylesheet" href="assets/fonts/iconsmind/iconsmind.css">
+    <!--AOS Animations-->
+    <link rel="stylesheet" href="assets/vendor/node_modules/css/aos.css">
+
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <!--Main theme style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Swiper slider-->
+    <link rel="stylesheet" href="assets/vendor/node_modules/css/swiper-bundle.min.css">
+
+    <title>Infrasud - Bureau d'etudes techniques</title>
+</head>
+
+<body class="leading-relaxed text-base text-gray-900 dark:text-white dark:bg-black">
+     <!--Preloader Spinner-->
+     <div class="spinner-loader bg-primary text-white">
+        <span class="relative flex h-16 w-16">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-16 w-16 bg-indigo-500"></span>
+          </span>
+    </div>
+    <!--begin:Header-->
+    <header class="header-transparent sticky-fixed">
+
+        <!--begin:navbar-->
+        <nav class="navbar navbar-expand-lg fixed top-0 left-0 w-full z-[999] navbar-light navbar-link-white">
+            <!--Navbar-fixed-background-->
+            <div class="navbar-fixed-bg absolute"></div>
+            <div class="container relative flex flex-wrap items-center justify-center">
+                <!--begin:logo-->
+                <a class="navbar-brand relative w-32 block" href="index.html">
+                    <img src="assets/img/logo.png" alt="" class="max-w-full navbar-brand-sticky">
+                    <img src="assets/img/logo-white.png" alt="" class="max-w-full navbar-brand-transparent">
+                </a>
+                <!--end:logo-->
+
+                <!--begin:navbar-no-collapse-items-->
+                <div class="flex items-center shrink-0 ml-auto lg:order-last">
+                    <!--Navbar toggler button-->
+                    <button class="navbar-toggler order-last lg:hidden ml-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i></i>
+                        </span>
+                    </button>
+                    <!--Button-->
+
+                </div>
+                <!--end:navbar-no-collapse-items-->
+
+                <!--begin:navbar-collapse-->
+                <div class="collapse navbar-collapse w-full lg:w-auto lg:visible lg:ml-auto flex flex-wrap  lg:justify-end items-center !visible lg:!flex lg:basis-auto basis-full pt-4 lg:pt-0 lg:!bg-transparent"
+                    id="mainNavbarTheme">
+
+                    <!--begin:Navbar items-->
+                    <ul class="navbar-nav flex flex-col lg:flex-row bg-white dark:bg-black lg:!bg-transparent w-full p-2 lg:p-0 shadow-lg lg:shadow-none">
+
+                      <!--begin:portfolio-->
+                      <li class="nav-item group dropdown relative">
+                        <a class="nav-link dropdown-toggle " href="#" role="button"
+                          data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">InfraSud
+                          <!--:Arrow:-->
+                          <span class="dropdown-arrow lg:group-hover:rotate-180 text-xs transition-all inline-block ml-1">
+                            <i class="bi bi-chevron-down"></i>
+                          </span>
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="index.html#section-whoarewe">Qui sommes-nous</a>
+                          <a class="dropdown-item" href="index.html#section-values">Nos valeurs</a>
+                          <a class="dropdown-item" href="index.html#section-team">Notre équipe</a>
+                          <a class="dropdown-item" href="index.html#section-projects">Nos derniers projets</a>
+
+
+                        </div>
+                      </li>
+                      <!--end:blog-->
+
+                      <!--begin:pages-->
+                      <li class="nav-item group dropdown relative">
+                        <a class="nav-link dropdown-toggle " href="#" role="button"
+                          data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">Certifications
+                          <!--:Arrow:-->
+                          <span class="dropdown-arrow lg:group-hover:rotate-180 text-xs transition-all inline-block ml-1">
+                            <i class="bi bi-chevron-down"></i>
+                          </span>
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="cert.html">03 - Planification et coordinations diverses</a>
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+                          <a class="dropdown-item" href="portfolio-classic-2-col.html">...</a>
+
+
+                        </div>
+                      </li>
+                      <!--end:pages-->
+
+                      <!--begin:pages-->
+                      <li class="nav-item group relative">
+                        <a class="nav-link" href="ref.html">Références</a>
+                      </li>
+                      <!--end:features-->
+                      <!--begin:pages-->
+                      <li class="nav-item group relative">
+                        <a class="nav-link" href="order.html">Donneurs d'ordre</a>
+                      </li>
+                      <li class="nav-item group relative">
+                        <a class="nav-link" href="#footer">Nous contacter</a>
+                      </li>
+                    </ul>
+                    <!--end:Navbar items-->
+
+                </div>
+                <!--end:navbar-collapse-->
+            </div>
+
+        </nav>
+        <!--end:navbar-->
+    </header>
+    <!--end:header-->
+
+    <!--Main content-->
+    <main class="main-content" id="main-content">
+        <!--page-hero-->
+        <section class="bg-black text-white relative overflow-hidden jarallax-container">
+            <!--begin:Video-bg-->
+            <div class="w-full h-full opacity-40 absolute right-0 top-0 bg-cover bg-no-repeat bg-center"
+                style="background-image: url('assets/img/infraback.jpg');">
+            </div>
+            <!--end:Video-bg-->
+
+            <!--begin:container-->
+            <div class="container h-full pt-28 lg:pt-44 pb-16 relative z-[1]">
+                <div class="flex flex-wrap pb-5 md:pb-9 -mx-4 h-full items-center">
+                    <div class="px-4 w-full lg:w-3/4 mx-auto text-center mb-5 mb-lg-0">
+                        <!--begin:swiper text-slider-->
+                        <div
+                            class="swiper-container swiper-text w-full h-9 text-xl font-medium font-serif italic mb-3 text-white overflow-hidden">
+                            <!--begin:Slider wrapper-->
+                            <div class="swiper-wrapper text-white">
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études préliminaires
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études d’avant-projet
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études de projet
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Assistance aux contrats de travaux
+                                </div>
+                                <!--Slide item-->
+                                <div class="swiper-slide justify-center">
+                                    Études d’exécution
+                                </div>
+                                <div class="swiper-slide justify-center">
+                                    Visa
+                                </div>
+                                <div class="swiper-slide justify-center">
+                                    Direction de l’exécution des travaux
+                                </div>
+                                <div class="swiper-slide justify-center">
+                                    Assistance aux opérations de réception
+                                </div>
+
+                            </div>
+                            <!--end:Slider wrapper-->
+
+                        </div>
+                        <!--end:swiper text-slider-->
+
+                        <!--Hero title-->
+                        <h1 class="text-5xl lg:text-7xl font-medium mb-5">
+                            Nous intervenons <span class="text-gradient-light">à tous les stades</span> de la mission
+                        </h1>
+
+                        <!--Hero description-->
+                        <p class="mb-9 lg:w-2/3 text-xl mx-auto text-white/75">
+                            SOUS TITRE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nisl at mauris mattis mattis
+                        </p>
+
+                        <!--Hero action button-->
+                        <div class="flex items-center justify-center">
+                            <a href="#section-whoarewe"
+                                class="px-6 lg:px-8 py-3 border-2 border-white text-white inline-flex items-center rounded-full font-medium capitalize hover:bg-white hover:text-indigo-500 hover:-translate-y-1">En savoir plus
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end:container-->
+
+            <!--begin:Divider shape-->
+            <svg class="absolute start-0 bottom-0 mb-n1 text-white dark:text-black" preserveAspectRatio="none"
+                width="100%" height="80" viewBox="0 0 1460 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M122 22.8261L0 0V120H1460V0L1338 22.8261C1217 44.1304 973 88.2609 730 88.2609C487 88.2609 243 44.1304 122 22.8261Z"
+                    fill="currentColor"></path>
+            </svg>
+            <!--end:Divider shape-->
+        </section>
+        <!--/section-->
+        <section class="relative" id="section-whoarewe">
+          <div class="container py-16 lg:py-24">
+                  <div class="w-full mx-auto">
+                    <div data-aos="fade-up" class="aos-init aos-animate">
+                    <h2 class="text-4xl lg:text-5xl font-medium text-start mb-8"><span class="text-gradient-light">03</span> Planification et coordinations diverses</h2>
+                </div>
+
+                  </div>
+                  <div class="my-5">
+                    La complexité des technologies, la multiplicité des intervenants, les difficultés des procédures administratives rendent nécessaires la mise en cohérence et l’harmonisation des acteurs et des techniques, la direction de l’exécution des travaux et les synthèses spatiales des études d’exécution.
+<br/><br/>
+Cette rubrique regroupe cinq types de qualifications correspondant à des notions différentes :
+<br/><br/>
+
+</div>
+<ul>
+  <li class="mb-4 flex flex-wrap items-center">
+                        <i class="me-2 opacity-50 text-xl bi bi-check-circle"></i>
+                        L'ordonnancement - pilotage - coordination (OPC)
+                    </li>
+                    <li class="mb-4 flex flex-wrap items-center">
+                                          <i class="me-2 opacity-50 text-xl bi bi-check-circle"></i>
+                                          La coordination sécurité et protection de la santé (CSPS)
+                                      </li>
+                                      <li class="mb-4 flex flex-wrap items-center">
+                                                            <i class="me-2 opacity-50 text-xl bi bi-check-circle"></i>
+                                                            La coordination de système de sécurité incendie (CSSI)
+                                                        </li>
+                                                        <li class="mb-4 flex flex-wrap items-center">
+                                                                              <i class="me-2 opacity-50 text-xl bi bi-check-circle"></i>
+                                                                              La Direction de l’Exécution des Travaux
+                                                                          </li>
+                                                                          <li class="mb-4 flex flex-wrap items-center">
+                                                                                                <i class="me-2 opacity-50 text-xl bi bi-check-circle"></i>
+                                                                                                La Synthèse
+                                                                                            </li>
+</ul>
+<h3 class="text-2xl font-medium mt-9 mb-9">Nos qualifications dans cette rubrique</h3>
+<ul class="mt-5">
+                    <!--Feature icon card-->
+                    <li class="flex mb-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+                      <!--Feature icon-->
+                      <div class="mr-4">
+                        <!--Icon-->
+                        <i class="bi bi-check lh-1 w-8 h-8 flex items-center justify-center rounded-full bg-indigo-500 text-white relative text-xl"></i>
+                      </div>
+                      <!--Feature text-->
+                      <div>
+                        <h5 class="text-xl font-medium mb-2">
+                          0301 : Planification - Coordination (OPC) d'exécution courant
+                        </h5>
+                        <p class="mb-0 text-gray-600 dark:text-gray-300">
+                          Concerne des opérations ne présentant pas de difficulté particulière mais avec au moins une dizaine d’entrepreneurs.
+<br/><br/>
+Le prestataire planifie, prépare et coordonne les interventions des entrepreneurs, y compris les études d’exécution.
+<br/><br/>
+Sa mission s'étend de la désignation des entrepreneurs à la levée des réserves, y compris les études d'exécution et gère le circuit des plans d’exécution des ouvrages. De manière préférentielle il débute les études d’ordonnancement dès les phases de conception.
+
+
+                        </p>
+                      </div>
+                    </li>
+                    <li class="flex mb-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+                      <!--Feature icon-->
+                      <div class="mr-4">
+                        <!--Icon-->
+                        <i class="bi bi-check lh-1 w-8 h-8 flex items-center justify-center rounded-full bg-indigo-500 text-white relative text-xl"></i>
+                      </div>
+                      <!--Feature text-->
+                      <div>
+                        <h5 class="text-xl font-medium mb-2">
+                          0331 : Direction de l’Exécution des Travaux
+                        </h5>
+                        <p class="mb-0 text-gray-600 dark:text-gray-300">
+                          Son objectif est d’organiser et diriger l’exécution des travaux dans le cadre des prescriptions et du niveau des qualités prescrites dans le ou les contrat(s) des entrepreneurs et d’assurer la gestion financière de l’opération depuis l’ouverture du chantier jusqu’à la réception des travaux et la période de parfait achèvement.
+                          <br/><br/>
+
+  Elle n’implique pas la conception de l’ouvrage.
+                        </p>
+                      </div>
+                    </li>
+
+                </ul>
+
+                  </div>
+                </div>
+        </section>
+        <!--end:feature image section-->
+
+        <!--end: call to action-->
+    </main>
+
+    <!--begin:Footer-->
+    <footer id="footer" class="bg-body footer relative bg-gray-100 dark:bg-gray-900">
+        <div class="container pt-12 lg:pt-16 pb-5 relative z-[1]">
+            <div class="flex flex-wrap -mx-4">
+                <!--Footer col-->
+                <div class="w-full lg:w-2/6 px-4 mb-7">
+                    <div class="flex flex-col h-full">
+                        <h6 class="mb-4 font-medium">
+                            Nous contacter
+                        </h6>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Phone text-2xl text-blue-500 me-4"></i>04 67 69 00 64</p>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Fax text-2xl text-blue-500 me-4"></i>04 67 69 01 14</p>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Email text-2xl text-blue-500 me-4"></i>secretariat@infrasud.com</p>
+                        <p class="mb-4 text-gray-500 dark:text-gray-300 flex items-center"><i class="icon-Map-Marker2 text-2xl text-blue-500 me-4"></i>187 rue Hélène Boucher</br>34170 Castelnau-le-Lez</br>France</p>
+
+                        <!--:Dark Mode:-->
+                        <button data-bs-toggle="tooltip" data-bs-title="toggle theme" data-bs-placement="left"
+                        class="mt-5 toggle-mode w-10 h-10 rounded-full transition-all bg-white shadow-lg text-gray-700 dark:text-white dark:bg-gray-700 hover:bg-indigo-500 hover:text-white dark:hover:bg-indigo-500 flex items-center justify-center"
+                        type="button">
+                        <span class="dark:block hidden">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M12 2V4M12 20V22M4 12H2M6.31412 6.31412L4.8999 4.8999M17.6859 6.31412L19.1001 4.8999M6.31412 17.69L4.8999 19.1042M17.6859 17.69L19.1001 19.1042M22 12H20M17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12Z"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        <span class="block dark:hidden">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M21.9548 12.9564C20.5779 15.3717 17.9791 17.0001 15 17.0001C10.5817 17.0001 7 13.4184 7 9.00008C7 6.02072 8.62867 3.42175 11.0443 2.04492C5.96975 2.52607 2 6.79936 2 11.9998C2 17.5227 6.47715 21.9998 12 21.9998C17.2002 21.9998 21.4733 18.0305 21.9548 12.9564Z"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-2/6 px-4 mb-7">
+</div>
+                <!--Footer col-->
+
+            </div>
+            <hr class="mb-5 mt-0 dark:border-gray-800">
+                <div class="w-full px-4 sm:text-right">
+                    <span class="block text-sm opacity-75">&copy; Copyright
+                        <script>
+                            document.write(new Date().getFullYear())
+
+                        </script>. Infrasud
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </footer>
+    <!--end:Footer-->
+
+
+    <!-- begin:Back to Top button -->
+    <a href="#"
+        class="toTop fixed rounded-full bg-indigo-500 text-white mr-4 mb-4 w-12 h-12 flex opacity-0 invisible [&.show]:visible [&.show]:opacity-100 items-center justify-center z-50 right-0 bottom-0">
+        <svg class="progress-circle absolute w-14 h-14 text-white" viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="4"
+                stroke-dasharray="0, 251.2">
+            </circle>
+        </svg>
+        <i class="bi bi-chevron-up"></i>
+    </a>
+    <!-- begin:Back to Top button -->
+
+
+    <!-- begin:main script -->
+    <script src="assets/js/theme.bundle.min.js"></script>
+    <!-- end:main script -->
+
+    <!--begin:Swiper slider-->
+    <script src="assets/vendor/node_modules/js/swiper-bundle.min.js"></script>
+</body>
+
+</html>
